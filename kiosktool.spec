@@ -2,7 +2,7 @@ Name:		kiosktool
 Summary:	Tool to enable KDE's KIOSK feature
 Summary(pl):	Narzêdzie do zarz±dzania mo¿liwo¶ciami KIOSK w KDE
 Version:	1.0
-Release:	0.1
+Release:	1
 Source0:	ftp://ftp.kde.org/pub/kde/stable/apps/KDE3.x/admin/%{name}-%{version}.tar.gz
 # Source0-md5:	e23e4a52dfe09d03e8649364f91a818a
 URL:		http://extragear.kde.org/apps/kiosktool/
