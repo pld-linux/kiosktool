@@ -2,7 +2,7 @@ Summary:	Tool to enable KDE's KIOSK feature
 Summary(pl):	Narzêdzie do zarz±dzania mo¿liwo¶ciami KIOSK w KDE
 Name:		kiosktool
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/stable/apps/KDE3.x/admin/%{name}-%{version}.tar.gz
@@ -40,6 +40,8 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT \
 	appsdir=%{_desktopdir}/kde \
 	kde_htmldir=%{_kdedocdir}
+
+rm -rf $RPM_BUILD_ROOT%{_datadir}/locale/xx
 
 %find_lang %{name} --with-kde
 
