@@ -1,5 +1,5 @@
 Summary:	Tool to enable KDE's KIOSK feature
-Summary(pl):	Narzêdzie do zarz±dzania mo¿liwo¶ciami KIOSK w KDE
+Summary(pl.UTF-8):   NarzÄ™dzie do zarzÄ…dzania moÅ¼liwoÅ›ciami KIOSK w KDE
 Name:		kiosktool
 Version:	1.0
 Release:	2
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A Point&Click tool for system administrators to enable KDE's KIOSK
 features or otherwise preconfigure KDE for groups of users.
 
-%description -l pl
-Narzêdzie Wska¿ i Kliknij dla administratorów do w³±czania mo¿liwo¶ci
-KIOSK w KDE i wstêpnej konfiguracji grup u¿ytkowników w KDE.
+%description -l pl.UTF-8
+NarzÄ™dzie WskaÅ¼ i Kliknij dla administratorÃ³w do wÅ‚Ä…czania moÅ¼liwoÅ›ci
+KIOSK w KDE i wstÄ™pnej konfiguracji grup uÅ¼ytkownikÃ³w w KDE.
 
 %prep
 %setup -q
