@@ -1,5 +1,5 @@
 Summary:	Tool to enable KDE's KIOSK feature
-Summary(pl.UTF-8):   Narzędzie do zarządzania możliwościami KIOSK w KDE
+Summary(pl.UTF-8):	Narzędzie do zarządzania możliwościami KIOSK w KDE
 Name:		kiosktool
 Version:	1.0
 Release:	2
